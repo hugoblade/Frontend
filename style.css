@@ -1,0 +1,54 @@
+static body.dark{
+    background: #0d0d0d;
+    color: #ffffff;
+    font-family: 'Segoe UI';
+sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+form input, form button {
+      display: block;
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      font-size: 1rem;
+}
+
+button {
+    background-color: #0066ff;
+    color: whitesmoke;
+    border: grey;
+    cursor: pointer;
+}
+
+.card-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.card {
+    background: #1a1a1a;
+    border: 1px solid #333;
+    padding: 20px;
+    border-radius: 8px;
+    width: 200px;
+}
+
+.card selected {
+    border: 2px solid #007bff;
+}
+
+.card button {
+    margin-top: 10px;
+    width: 100%;
+}

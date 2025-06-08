@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head>
+        <meta charset="UTF-8">
+        <title> Welcome </title>
+        <link rel="stylesheet" href="static/style.css">
+    </head>
+
+    <body class="dark">
+        <h1> SIGN UP </h1>
+        <formaction="/dashboard" 
+        method="GET">
+            <input type="text"
+        name="username@.com"
+        placeholder="Username@.com" required>
+              <input type="password"
+        name="password"
+        placeholder="Password" required>
+    <button type="Send"></button>
+        </form>
+    </body>
+</html>

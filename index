@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"
+        <title>Skip Hire</title>
+        <link rel="stylesheet"href="/static/style.css">
+    </head>
+    <body class="dark">
+        <div class="container">
+            <h1>Available Skip Offers</h1>
+            <div class="card-grid">
+                <div class="card">
+                <h2> 4 Yard Skip </h2>
+                <p>$227 - 7 Days Hire </p>
+                <button>Click</button>
+            </div>
+            <div class="card">
+                <h2> 14 yard Skip </h2>
+                <p> $325 - 14 Days Hire</p>
+                <button>Click</button>
+                <div>
+                    <div class="card selected"
+                    <h2> 9 Yard Skip </h2>
+                    <p> $345</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
