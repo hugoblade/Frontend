@@ -1,0 +1,28 @@
+package main
+
+import (
+	"net/http"
+	"html/template"
+)
+func renderTemplate(w http.ResponserWriter, tmpl string) {
+	t, _;=
+	template.Parsefiles("templates/"  + tmpl + ".html")
+	t.Execute(w, nil)
+}
+
+func loginHandler(w http.ResponserWriter, r *http.Request)
+{
+	renderTemplate(w, "login")
+}
+func dashboard(w http.ResponserWriter, r *http.Request)
+{
+	renderTemplate(w, "dashboard")
+}
+func main(){
+	fs := 
+	http.FileSever(http.Dir("static"))
+	     http.Handler("/static/", http.StripPrefix("/static"))
+
+		 http.HandleFunc("/dashboard/", dashboardHandler)
+		 http.ListenAndServe(":5500", nil)
+}
